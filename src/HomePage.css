@@ -1,0 +1,56 @@
+.heat,
+.windSpeed,
+.Humidity,
+.section2 {
+  background-color: #31363f;
+  border-radius: 1.5em;
+}
+
+.section1 {
+  flex-wrap: wrap !important;
+}
+.secOnTheLeft {
+  width: 40%;
+}
+
+.secOnTheRigth {
+  width: 60%;
+}
+.space {
+  width: 2px;
+  height: 15vh;
+  background-color: white;
+  border-radius: 3em;
+}
+
+.inlinePadding {
+  padding-inline: 49px !important;
+}
+
+@media screen and (max-width: 992px) {
+    .secOnTheLeft{
+        width: 100%;
+    }
+    .secOnTheRigth {
+        margin-top: 4em;
+        width: 100%;
+      }
+      .cardContainer{
+        flex-wrap: wrap;
+      }
+      .Humidity{
+        justify-content: start !important;
+      }
+
+}
+@media screen and (max-width: 992px) and (min-width:404px) {
+      .info{
+        gap: 15px;
+      }
+}
+@media screen and (max-width: 403px){
+      .info{
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+}
